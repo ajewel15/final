@@ -1,0 +1,27 @@
+nav{
+  margin: 0;
+  padding: 0;
+  background-color: indianred;
+}
+li a{
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  background-color: rgb(207, 88, 118, 1.00)
+}
+
+.active{
+  background-color: rgb(207, 88, 118)
+}
+@media screen and (min-width: 601px){
+  li{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+}

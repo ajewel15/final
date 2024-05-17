@@ -1,0 +1,92 @@
+
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+div.container{
+  border: 5px solid;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+header{
+  background-color: bisque;
+}
+.hero img{
+  width: 100%;
+}
+div.left, div.middle, div.right{
+  border: 3px dotted blue;
+  width: 30%;
+  
+}
+header h1 img{
+  width: 2%;
+}
+
+aside img{
+  width:100%;
+}
+
+aside{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  background-color: rgba(238, 172, 172, 0.692);
+
+}
+
+ul{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  width: 150px;
+  line-height: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+  background-color: indianred;
+}
+
+li a:hover{
+  background-color: rgb(219, 202, 206)
+}
+
+.active{
+  background-color: rgb(207, 88, 118)
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  li{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    overflow:hidden;
+  }
+  .teaser, .mission, article{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding:0 10px;
+  }
+  .content{
+    overflow:hidden;
+  }
+
+
+}
